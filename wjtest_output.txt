@@ -1,0 +1,25 @@
+Solving WJ((9, 4),(9, 4),(-1, 1))
+
+
+Search algorithm: breadth_first_tree_search
+Path of cost 6: (9, 4) -('dump', 2)->(9, 0) -('pour', 1, 2)->(5, 4) -('dump', 2)->(5, 0) -('pour', 1, 2)->(1, 4) -('dump', 2)->(1, 0) -('pour', 1, 2)->(0, 1) 
+
+Search algorithm: breadth_first_graph_search
+Path of cost 6: (9, 4) -('dump', 2)->(9, 0) -('pour', 1, 2)->(5, 4) -('dump', 2)->(5, 0) -('pour', 1, 2)->(1, 4) -('dump', 2)->(1, 0) -('pour', 1, 2)->(0, 1) 
+
+Search algorithm: depth_first_graph_search
+Path of cost 6: (9, 4) -('dump', 2)->(9, 0) -('pour', 1, 2)->(5, 4) -('dump', 2)->(5, 0) -('pour', 1, 2)->(1, 4) -('dump', 2)->(1, 0) -('pour', 1, 2)->(0, 1) 
+
+Search algorithm: iterative_deepening_search
+Path of cost 6: (9, 4) -('dump', 2)->(9, 0) -('pour', 1, 2)->(5, 4) -('dump', 2)->(5, 0) -('pour', 1, 2)->(1, 4) -('dump', 2)->(1, 0) -('pour', 1, 2)->(0, 1) 
+
+Search algorithm: astar_search
+Path of cost 6: (9, 4) -('dump', 2)->(9, 0) -('pour', 1, 2)->(5, 4) -('dump', 2)->(5, 0) -('pour', 1, 2)->(1, 4) -('dump', 2)->(1, 0) -('pour', 1, 2)->(0, 1) 
+
+SUMMARY: successors/goal tests/states generated/solution
+
+breadth_first_tree_search    <  37/  38/  51/(0, >
+breadth_first_graph_search   <   9/  10/  18/(0, >
+depth_first_graph_search     <   6/   7/  14/(0, >
+iterative_deepening_search   <  66/ 104/  99/(0, >
+astar_search                 <   9/  10/  18/(0, >
